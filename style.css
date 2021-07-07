@@ -65,7 +65,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .square > .square-image-wrapper img {
   width: 500px;
-  height: 100%;
+  height: auto;
   object-fit: cover;
 }
 
@@ -89,6 +89,5 @@ h1, h2, h3, h4, h5, h6 {
 
   .square > .square-image-wrapper {
       order: 2;
-      height: 100%;
   }
 }
