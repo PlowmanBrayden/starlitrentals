@@ -78,7 +78,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 42px;
 }
 
-@media (max-width: 615px){
+@media (max-width: 670px){
   .square {
     grid-template-columns: 1fr !important;
   }
