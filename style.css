@@ -64,7 +64,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .square > .square-image-wrapper img {
-  width: 100%;
+  width: 500px;
   height: 100%;
   object-fit: cover;
 }
@@ -79,12 +79,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .square > .square-image-wrapper {
-  display:flex;
-  justify-content:center;
-  width: 100%;
+  display: flex;
+  justify-content: center;
+  
 }
 
-@media (max-width: 720px){
+@media (max-width: 780px){
   .square {
     grid-template-columns: 1fr !important;
   }
