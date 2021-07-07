@@ -64,8 +64,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .square > .square-image-wrapper img {
-  width: 100%;
-  height: 500px;
+  width: 500px;
+  height: 100%;
   object-fit: cover;
 }
 
@@ -81,7 +81,7 @@ h1, h2, h3, h4, h5, h6 {
 .square > .square-image-wrapper {
   display: flex;
   justify-content: center;
-  
+
 }
 
 @media (max-width: 780px){
@@ -95,5 +95,11 @@ h1, h2, h3, h4, h5, h6 {
 
   .square > .square-image-wrapper {
       order: 2;
+  }
+  @media (max-width: 499px){
+    .square > .square-image-wrapper img {
+      width: 95%;
+      padding: 2.5%;
+    }
   }
 }
