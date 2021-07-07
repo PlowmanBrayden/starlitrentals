@@ -90,11 +90,11 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   .square > .square-text-wrapper {
-      order: 1;
+      order: 2;
   }
 
   .square > .square-image-wrapper {
-      order: 2;
+      order: 1;
   }
   @media (max-width: 499px){
     .square > .square-image-wrapper img {
